@@ -1,0 +1,4 @@
+interface:
+  display_name: "Charm Wish SSH Apps"
+  short_description: "Serve Charm apps over SSH with Wish."
+  default_prompt: "Use this when building SSH-accessible terminal applications, Bubble Tea SSH sessions, or Wish middleware stacks."

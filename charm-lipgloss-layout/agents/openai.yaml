@@ -1,0 +1,4 @@
+interface:
+  display_name: "Charm Lip Gloss Layout"
+  short_description: "Polish terminal layout and style with Lip Gloss."
+  default_prompt: "Use this when styling or laying out terminal UI views with Lip Gloss."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Charm TUI Builder"
+  short_description: "Build idiomatic Charm terminal apps."
+  default_prompt: "Use this when designing or implementing a terminal UI with the Charm ecosystem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Charm TUI Motion And Logs"
+  short_description: "Add natural motion and useful logs to TUIs."
+  default_prompt: "Use this when adding Harmonica animations, tasteful motion, or Charm log instrumentation to terminal applications."

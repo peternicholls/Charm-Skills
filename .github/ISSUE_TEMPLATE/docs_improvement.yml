@@ -1,0 +1,24 @@
+name: Documentation improvement
+description: Report a typo, unclear explanation, stale link, or missing repository docs.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: File path or section.
+      placeholder: "charm-tui-builder/SKILL.md"
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: What should be clarified or corrected?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change

@@ -1,0 +1,16 @@
+.DS_Store
+.omx/
+
+# Local editor and environment files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+__pycache__/
+*.py[cod]
+
+# Generated release artifacts
+dist/
+*.tar.gz
+*.zip

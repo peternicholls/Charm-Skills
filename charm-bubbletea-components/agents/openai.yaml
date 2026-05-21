@@ -1,0 +1,4 @@
+interface:
+  display_name: "Charm Bubble Tea Components"
+  short_description: "Use Bubbles components inside Bubble Tea apps."
+  default_prompt: "Use this when adding lists, text inputs, tables, spinners, help, or other reusable components to Bubble Tea applications."

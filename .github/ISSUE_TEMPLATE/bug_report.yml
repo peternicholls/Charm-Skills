@@ -1,0 +1,40 @@
+name: Bug report
+description: Report incorrect, unclear, or broken Skill behavior.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - charm-tui-builder
+        - charm-lipgloss-layout
+        - charm-bubbletea-components
+        - charm-huh-forms
+        - charm-glamour-markdown
+        - charm-wish-ssh-apps
+        - charm-tui-motion-observability
+        - charm-tui-qa
+        - repository
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong or confusing?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the Skill have guided the agent to do?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Include prompts, excerpts, links, or validation output when useful.

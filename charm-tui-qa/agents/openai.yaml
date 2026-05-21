@@ -1,0 +1,4 @@
+interface:
+  display_name: "Charm TUI QA"
+  short_description: "Verify terminal UX with tests and recordings."
+  default_prompt: "Use this when testing, recording, screenshotting, or manually reviewing Charm terminal UI quality."

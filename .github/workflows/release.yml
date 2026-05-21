@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate skills
+        run: python3 scripts/validate_skills.py
+
+      - name: Check tag matches VERSION
+        run: |
+          expected="v$(cat VERSION)"
+          if [ "${GITHUB_REF_NAME}" != "${expected}" ]; then
+            echo "Tag ${GITHUB_REF_NAME} does not match VERSION ${expected}"
+            exit 1
+          fi
+
+      - name: Build archives
+        run: |
+          mkdir -p dist
+          git archive --format=tar.gz --prefix=charm-skills-${GITHUB_REF_NAME}/ -o dist/charm-skills-${GITHUB_REF_NAME}.tar.gz HEAD
+          git archive --format=zip --prefix=charm-skills-${GITHUB_REF_NAME}/ -o dist/charm-skills-${GITHUB_REF_NAME}.zip HEAD
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/charm-skills-${{ github.ref_name }}.tar.gz
+            dist/charm-skills-${{ github.ref_name }}.zip
+          generate_release_notes: true

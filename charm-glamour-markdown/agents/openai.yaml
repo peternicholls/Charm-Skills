@@ -1,0 +1,4 @@
+interface:
+  display_name: "Charm Glamour Markdown"
+  short_description: "Render readable terminal Markdown with Glamour."
+  default_prompt: "Use this when adding Markdown rendering, custom Markdown styles, word wrapping, or terminal-aware Markdown output to a CLI or TUI."

@@ -1,0 +1,25 @@
+name: Skill improvement request
+description: Suggest a new Skill or improvement to an existing Skill.
+title: "[Skill]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: What should an agent be able to do?
+      placeholder: "Example: Build a Wish app that exposes a Bubble Tea dashboard over SSH."
+    validations:
+      required: true
+  - type: textarea
+    id: current_gap
+    attributes:
+      label: Current gap
+      description: What is missing or weak in the current Skills?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_guidance
+    attributes:
+      label: Proposed guidance
+      description: Optional patterns, references, or verification checks to include.

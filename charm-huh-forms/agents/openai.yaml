@@ -1,0 +1,4 @@
+interface:
+  display_name: "Charm Huh Forms"
+  short_description: "Build terminal forms and prompts with Huh."
+  default_prompt: "Use this when implementing forms, prompts, validation, dynamic fields, or accessible terminal input flows with Huh."
