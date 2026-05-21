@@ -6,14 +6,18 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-05-21
+
 ### Added
 
-- Public repository scaffolding, contribution guidance, issue templates, release process, and skill validation.
+- Prompt-to-project demonstration examples for the Charm Skill suite.
+- Example structure validation and CI example test coverage.
 
 ## [0.1.0] - 2026-05-21
 
 ### Added
 
+- Public repository scaffolding, contribution guidance, issue templates, release process, and skill validation.
 - Initial Charm Skill suite:
   - `charm-tui-builder`
   - `charm-lipgloss-layout`

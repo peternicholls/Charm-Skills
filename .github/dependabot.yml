@@ -7,3 +7,24 @@ updates:
     labels:
       - "dependencies"
       - "github-actions"
+  - package-ecosystem: "gomod"
+    directory: "/examples/deploy-dashboard"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependencies"
+      - "go"
+  - package-ecosystem: "gomod"
+    directory: "/examples/setup-wizard"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependencies"
+      - "go"
+  - package-ecosystem: "gomod"
+    directory: "/examples/docs-ssh"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependencies"
+      - "go"

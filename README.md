@@ -53,6 +53,10 @@ Use charm-tui-builder to design a Bubble Tea app for browsing deploy logs.
 
 For broad Charm TUI work, start with `charm-tui-builder`. It routes to the specialized Skills when layout, forms, components, Markdown, SSH, motion/logging, or QA need deeper guidance.
 
+## Examples
+
+Runnable prompt-to-project demonstrations live in [examples](examples/README.md). Each example starts with a `PROMPT.md`, names the Skills an agent should use, and includes the generated project plus deterministic verification.
+
 ## Repository Layout
 
 Each Skill follows the standard Codex Skill shape:
@@ -74,9 +78,10 @@ Run the repository validator before opening a pull request:
 
 ```bash
 python3 scripts/validate_skills.py
+python3 scripts/validate_examples.py
 ```
 
-The validator checks Skill frontmatter, folder names, UI metadata, reference links, stale template text, and reference structure.
+The validators check Skill frontmatter, folder names, UI metadata, reference links, stale template text, reference structure, and example project structure.
 
 ## Versioning
 
