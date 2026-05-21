@@ -74,11 +74,12 @@ The `SKILL.md` files stay concise so agents can load them quickly. Deeper exampl
 
 ## Validate
 
-Run the repository validator before opening a pull request:
+Run the repository validators before opening a pull request:
 
 ```bash
 python3 scripts/validate_skills.py
 python3 scripts/validate_examples.py
+python3 scripts/validate_examples.py --test
 ```
 
 The validators check Skill frontmatter, folder names, UI metadata, reference links, stale template text, reference structure, and example project structure.

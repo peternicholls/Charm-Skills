@@ -28,3 +28,24 @@ updates:
     labels:
       - "dependencies"
       - "go"
+  - package-ecosystem: "gomod"
+    directory: "/examples/task-board"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependencies"
+      - "go"
+  - package-ecosystem: "gomod"
+    directory: "/examples/log-inspector"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependencies"
+      - "go"
+  - package-ecosystem: "gomod"
+    directory: "/examples/palette-studio"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependencies"
+      - "go"

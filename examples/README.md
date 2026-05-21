@@ -11,6 +11,9 @@ Each example starts with `PROMPT.md`, then includes the project that an agent bu
 | `deploy-dashboard` | Bubble Tea dashboard with component focus, responsive layout, logs, progress, and QA hooks. | `charm-tui-builder`, `charm-lipgloss-layout`, `charm-bubbletea-components`, `charm-tui-motion-observability`, `charm-tui-qa` |
 | `setup-wizard` | Huh form workflow with validation, defaults, accessible mode, and deterministic sample output. | `charm-huh-forms`, `charm-lipgloss-layout`, `charm-tui-builder`, `charm-tui-qa` |
 | `docs-ssh` | Markdown docs rendering and SSH-accessible terminal app shape. | `charm-glamour-markdown`, `charm-wish-ssh-apps`, `charm-tui-builder`, `charm-lipgloss-layout`, `charm-tui-qa` |
+| `task-board` | Kanban-style board with custom domain state, responsive columns, and card movement. | `charm-tui-builder`, `charm-lipgloss-layout`, `charm-bubbletea-components`, `charm-tui-qa` |
+| `log-inspector` | Filterable support log triage app with text input, table rows, severity counts, and detail preview. | `charm-tui-builder`, `charm-bubbletea-components`, `charm-lipgloss-layout`, `charm-tui-motion-observability`, `charm-tui-qa` |
+| `palette-studio` | Terminal theme preview studio with swatches, state samples, cards, and theme switching. | `charm-tui-builder`, `charm-lipgloss-layout`, `charm-tui-qa` |
 
 ## How To Read An Example
 

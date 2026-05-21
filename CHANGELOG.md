@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-05-22
+
+### Added
+
+- Additional runnable TUI showcase apps: `task-board`, `log-inspector`, and `palette-studio`.
+
 ## [0.2.0] - 2026-05-21
 
 ### Added
