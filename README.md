@@ -1,5 +1,9 @@
 # Charm Skills
 
+[![Validate](https://github.com/peternicholls/Charm-Skills/actions/workflows/validate.yml/badge.svg)](https://github.com/peternicholls/Charm-Skills/actions/workflows/validate.yml)
+[![Latest Release](https://img.shields.io/github/v/release/peternicholls/Charm-Skills?logo=github)](https://github.com/peternicholls/Charm-Skills/releases)
+[![License](https://img.shields.io/github/license/peternicholls/Charm-Skills)](LICENSE)
+
 Agent Skills for building excellent terminal user interfaces with the Charm ecosystem.
 
 This repository packages a focused suite of Codex-compatible Skills that teach agents how to choose and use Charm libraries such as Bubble Tea, Lip Gloss, Bubbles, Huh, Glamour, Wish, Log, and Harmonica. The Skills are practical operating guides: each one tells an agent when to use it, what decisions to make, what implementation patterns to prefer, what mistakes to avoid, and how to verify the result.
