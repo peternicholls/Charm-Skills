@@ -45,7 +45,7 @@ jobs:
           git archive --format=zip --prefix=charm-skills-${GITHUB_REF_NAME}/ -o dist/charm-skills-${GITHUB_REF_NAME}.zip HEAD
 
       - name: Create GitHub release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: |
             dist/charm-skills-${{ github.ref_name }}.tar.gz
